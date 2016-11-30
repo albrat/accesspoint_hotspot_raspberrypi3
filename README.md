@@ -42,7 +42,7 @@ sudo chmod +x ap.sh
 
 sudo ./install.sh
 
-sudo ap ssid_name passwort
+sudo ap "ssid_name" "passwort" (ssid und name selber entscheiden und ohne " eingeben)
 
 Fertig!
 
