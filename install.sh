@@ -10,8 +10,8 @@ touch $x
 sudo rm -rf /etc/default/udhcpd
 sudo mkdir /etc/default
 sudo touch /etc/default/udhcpd
-echo "start 10.0.0.201 " >>   $x
-echo "end 10.0.0.250" >> $x
+#echo "start 10.0.0.201 " >>   $x
+#echo "end 10.0.0.250" >> $x
 echo "interface wlan0" >> $x
 echo "remaining yes" >> $x
 echo "opt dns 10.0.0.138" >> $x
