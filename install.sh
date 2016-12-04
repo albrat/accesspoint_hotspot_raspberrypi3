@@ -10,8 +10,8 @@ touch $x
 sudo rm -rf /etc/default/udhcpd
 sudo mkdir /etc/default
 sudo touch /etc/default/udhcpd
-#echo "start 10.0.0.201 " >>   $x
-#echo "end 10.0.0.250" >> $x
+echo "start 10.0.0.201 " >>   $x
+echo "end 10.0.0.220" >> $x
 echo "interface wlan0" >> $x
 echo "remaining yes" >> $x
 echo "opt dns 10.0.0.138" >> $x
@@ -60,7 +60,7 @@ echo "auto eth0" >> $x
 echo "iface eth0 inet dhcp" >> $x
 echo "" >> $x
 echo "iface wlan0 inet static" >> $x
-echo "    address 10.0.0.138" >> $x
+echo "    address 10.0.0.139" >> $x
 echo "    netmask 255.255.255.0" >> $x
 echo "    wireless-power off" >> $x
 echo "" >> $x
